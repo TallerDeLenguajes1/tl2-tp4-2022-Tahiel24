@@ -1,0 +1,20 @@
+@model TP4.Models.Cadete
+
+@{
+    ViewData["Title"] = "Cadetes";
+}
+
+
+
+<form asp-controller="AltaCadetesController" asp-action"CadeteAlta" method="post">
+    <label>
+        <input type="text" name"Nombre">
+    </label>
+    <label>
+        <input type="text" name="Direccion">
+    </label>
+    <label>
+        <input type="text" name="Telefono1">
+    </label>
+    <input type="submit" value="Enviar">
+</form>
