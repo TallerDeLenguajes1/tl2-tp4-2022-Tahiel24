@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Taller2\tl2-tp4-2022-Tahiel24\TP4
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Taller2/tl2-tp4-2022-Tahiel24/TP4/Views/Alta/AltaPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx0YVxBbHRhUGVkaWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Taller2/tl2-tp4-2022-Tahiel24/TP4/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
