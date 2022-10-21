@@ -40,7 +40,7 @@ class Cadete : Persona
         Direccion = direccionA[r.Next(0, 5)];
         Telefono1 = TelefonoA[r.Next(0, 5)];
     }
-    
+
     public Cadete(int id, string nom, string direc,string tel)
     {
         Id = id;
@@ -77,3 +77,26 @@ class Pedido
         Dir=dirN;
     }
 }
+
+class Cliente : Persona
+{
+    private string DatosReferenciaDireccion;
+
+    public string DatosReferenciaDireccion1 { get => DatosReferenciaDireccion; set => DatosReferenciaDireccion = value; }
+
+    string[] nombresA = { "Agustin", "Leandro", "Jose", "Juan", "Pedro", "Fransisco" };
+    string[] direccionA = { "Asuncion 320", "Corrientes 234", "Av. Peron 256", "Peru 1921", "25 de Mayo 452" };
+    string[] TelefonoA = { "32427835", "87382242", "78263930", "32423545", "23546748" };
+    string[] referencias = { "Porton negro y pino enfrente", "Paredon blanco", "Auto Negro estacionado dentro", "Plantas en macetas por el jardin", "Ligustrines" };
+
+    Random r = new Random();
+    public Cliente()
+    {
+        Id = r.Next(0, 1000);
+        Nombre = nombresA[r.Next(0, 6)];
+        Direccion = direccionA[r.Next(0, 5)];
+        Telefono1 = TelefonoA[r.Next(0, 5)];
+        DatosReferenciaDireccion1 = referencias[r.Next(0, 5)];
+    }
+}
+

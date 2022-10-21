@@ -15,7 +15,9 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        Ayuda nuevaAyuda = new Ayuda();
+        List<Cadete> nuevaLista= nuevaAyuda.Contenido();
+        return View(nuevaLista);
     }
 
     public IActionResult Privacy()
@@ -28,4 +30,5 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
 }
