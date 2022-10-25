@@ -1,4 +1,4 @@
-@model List<Cadete>;
+@model List<TP4.Models.Cadete>;
 
 @{
     ViewData["Title"] = "CadeteRecibir Page";
@@ -8,6 +8,10 @@
     <tr>
         <th>ID del Cadete</th><th>Nombre</th><th>Direccion</th><th>Telefono</th>
     </tr>
-    <tr>
-    </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td><td>@item.Nombre</td><td>@item.Direccion</td><td>@item.Telefono1</td>
+            </tr>
+        }
 </table>
