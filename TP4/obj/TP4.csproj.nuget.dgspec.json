@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Taller2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj": {}
+    "C:\\TALLER 2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj": {}
   },
   "projects": {
-    "C:\\Taller2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj": {
+    "C:\\TALLER 2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Taller2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj",
+        "projectUniqueName": "C:\\TALLER 2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj",
         "projectName": "TP4",
-        "projectPath": "C:\\Taller2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj",
+        "projectPath": "C:\\TALLER 2\\tl2-tp4-2022-Tahiel24\\TP4\\TP4.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Taller2\\tl2-tp4-2022-Tahiel24\\TP4\\obj\\",
+        "outputPath": "C:\\TALLER 2\\tl2-tp4-2022-Tahiel24\\TP4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

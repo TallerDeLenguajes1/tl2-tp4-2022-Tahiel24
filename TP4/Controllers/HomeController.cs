@@ -15,9 +15,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Ayuda nuevaAyuda = new Ayuda();
-        List<Cadete> nuevaLista= nuevaAyuda.Contenido();
-        return View(nuevaLista);
+        
+        return View();
     }
 
     public IActionResult Privacy()

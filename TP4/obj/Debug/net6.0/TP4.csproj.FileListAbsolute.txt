@@ -24,3 +24,29 @@ C:\Taller2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\refint\TP4.dll
 C:\Taller2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.pdb
 C:\Taller2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.genruntimeconfig.cache
 C:\Taller2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\ref\TP4.dll
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\appsettings.Development.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\appsettings.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\TP4.staticwebassets.runtime.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\TP4.exe
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\TP4.deps.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\TP4.runtimeconfig.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\TP4.dll
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\bin\Debug\net6.0\TP4.pdb
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.csproj.AssemblyReference.cache
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.GeneratedMSBuildEditorConfig.editorconfig
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.AssemblyInfoInputs.cache
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.AssemblyInfo.cs
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.csproj.CoreCompileInputs.cache
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.MvcApplicationPartsAssemblyInfo.cache
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.RazorAssemblyInfo.cache
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.RazorAssemblyInfo.cs
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\staticwebassets.build.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\staticwebassets.development.json
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\scopedcss\bundle\TP4.styles.css
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\scopedcss\projectbundle\TP4.bundle.scp.css
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.dll
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\refint\TP4.dll
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.pdb
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\TP4.genruntimeconfig.cache
+C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\obj\Debug\net6.0\ref\TP4.dll
