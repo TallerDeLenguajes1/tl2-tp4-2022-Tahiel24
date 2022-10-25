@@ -11,13 +11,10 @@ class Ayuda
         
     }
 
-    public List<Cadete> Contenido()
+    public List<Cadete> DevolverCadetes()
     {
         List<Cadete> ListadoCadetes = new List<Cadete>();
-        List<Cliente> ListadoClientesN = new List<Cliente>();
-        List<Pedido> ListadoPedidosN = new List<Pedido>();
-        string[] lineas = File.ReadAllLines(@"C:\Taller2\tl2-tp4-2022-Tahiel24\TP4\CSV\Cadetes.csv");
-        List<string> contenido = new List<string>();
+        string[] lineas = File.ReadAllLines(@"C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\CSV\Cadetes.csv");
 
         foreach (var i in lineas)
         {
@@ -28,6 +25,13 @@ class Ayuda
         }
 
         return ListadoCadetes;
+    }
+
+    public void GuardarCadete(Cadete cadete){
+        string path= @"C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\CSV\Cadetes.csv";
+        List<string>cadena=new List<string>();
+        cadena.Add(cadete.Id+","+cadete.Nombre+","+cadete.Direccion+","+cadete.Telefono1);
+        File.AppendAllLines(path,cadena);
     }
 
     
