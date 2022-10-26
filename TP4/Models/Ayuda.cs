@@ -34,6 +34,23 @@ class Ayuda
         File.AppendAllLines(path,cadena);
     }
 
-    
+    public void EliminarCadetes(Cadete cadete){
+        string path= @"C:\TALLER 2\tl2-tp4-2022-Tahiel24\TP4\CSV\Cadetes.csv";
+        List<string>ListaCadenas=new List<string>();
+        string[] contenidoActual = File.ReadAllLines(path);
+        File.Delete(path);
+        string cadena1=cadete.Id+","+cadete.Nombre+","+cadete.Direccion+","+cadete.Telefono1;
+        string cadena2;
+        for (int i = 0; i <contenidoActual.Length; i++)
+        {
+            cadena2= contenidoActual[i];
+            if(cadena1.Equals(cadena2)){
+                continue;
+            }else{
+                ListaCadenas.Add(cadena2);
+            }
+        }
+        File.AppendAllLines(path,ListaCadenas);
+    }
 }
 

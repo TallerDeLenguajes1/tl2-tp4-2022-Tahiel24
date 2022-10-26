@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Cadete}/{action=CadeteRecibir}/{id?}");
+    pattern: "{controller=Cadete}/{action=MostrarCadetesPrincipal}/{id?}");
 
 app.Run();
