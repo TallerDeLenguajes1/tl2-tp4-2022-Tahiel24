@@ -46,3 +46,16 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.listado-titulo{
+  text-align: center;
+}
+
+.tabla-primera {
+  border-collapse: collapse;
+}
+
+.tabla-primera th,.tabla-primera td {
+  border: 2px solid black;
+  padding: 1em;
+}

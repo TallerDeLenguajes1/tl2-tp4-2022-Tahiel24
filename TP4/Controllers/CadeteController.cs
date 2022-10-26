@@ -17,17 +17,6 @@ public class CadeteController : Controller
         return View();
     }
 
-    [HttpPost]
-    public IActionResult MostrarCadete(string Nombre, string Direccion, string Telefono1,int Id)
-    {
-        Ayuda nuevaAyuda=new Ayuda();
-        Cadete nuevoCadete= new Cadete(Id,Nombre,Direccion,Telefono1);
-        nuevaAyuda.GuardarCadete(nuevoCadete);
-        List<Cadete>listaCadetes=new List<Cadete>();
-        listaCadetes=nuevaAyuda.DevolverCadetes();
-        return View(listaCadetes);
-    }
-
     public IActionResult MostrarCadetesPrincipal()
     {
         Ayuda nuevaAyuda=new Ayuda();
@@ -50,6 +39,15 @@ public class CadeteController : Controller
         Ayuda nuevaAyuda=new Ayuda();
         Cadete cadeteEliminado= new Cadete(Id, Nombre, Direccion, Telefono1);
         nuevaAyuda.EliminarCadetes(cadeteEliminado);
+        return RedirectToAction("MostrarCadetesPrincipal");
+    }
+
+    [HttpPost]
+    public RedirectToActionResult AgregarCadetes(string Nombre, string Direccion, string Telefono1,int Id)
+    {
+        Ayuda nuevaAyuda=new Ayuda();
+        Cadete nuevoCadete= new Cadete(Id,Nombre,Direccion,Telefono1);
+        nuevaAyuda.GuardarCadete(nuevoCadete);
         return RedirectToAction("MostrarCadetesPrincipal");
     }
 

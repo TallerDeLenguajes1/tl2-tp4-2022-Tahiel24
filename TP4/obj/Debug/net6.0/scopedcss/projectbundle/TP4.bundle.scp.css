@@ -47,3 +47,16 @@ button.accept-policy[b-lq6sgqq5um] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.listado-titulo[b-lq6sgqq5um]{
+  text-align: center;
+}
+
+.tabla-primera[b-lq6sgqq5um] {
+  border-collapse: collapse;
+}
+
+.tabla-primera th[b-lq6sgqq5um],.tabla-primera td[b-lq6sgqq5um] {
+  border: 2px solid black;
+  padding: 1em;
+}
